@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AvaloniaProject">
+    <option name="projectPerEditor">
+      <map>
+        <entry key="Vgr2DesktopPoczta/MainWindow.axaml" value="Vgr2DesktopPoczta/Vgr2DesktopPoczta.csproj" />
+      </map>
+    </option>
+  </component>
+</project>
