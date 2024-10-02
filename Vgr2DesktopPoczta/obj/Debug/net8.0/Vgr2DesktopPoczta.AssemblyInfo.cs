@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Vgr2DesktopPoczta")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d7c411b28b97ea596a9c81a5d67f113955eaebb5")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+12ad78b4567009aeeaa02b5cb35076bf08f19d06")]
 [assembly: System.Reflection.AssemblyProductAttribute("Vgr2DesktopPoczta")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Vgr2DesktopPoczta")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -22,5 +22,8 @@ build_property.EnableGeneratedComInterfaceComImportInterop =
 [/home/js/RiderProjects/Vgr2DesktopPoczta/Vgr2DesktopPoczta/App.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
+[/home/js/RiderProjects/Vgr2DesktopPoczta/Vgr2DesktopPoczta/InfoPopUp.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
 [/home/js/RiderProjects/Vgr2DesktopPoczta/Vgr2DesktopPoczta/MainWindow.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml

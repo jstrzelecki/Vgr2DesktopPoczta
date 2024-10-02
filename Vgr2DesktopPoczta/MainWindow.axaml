@@ -6,8 +6,10 @@
         x:Class="Vgr2DesktopPoczta.MainWindow"
         Width="800"
         Height="450"
-        CanResize="False"
+        CanResize="True"
         Title="Nadaj Przesyłkę, PESEL: 00000000000">
+    
+
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="*"/>
@@ -33,18 +35,18 @@
                                Margin="0,-20, 0, 0"   Background="White"
                                Width="120" Padding="5, 0, 5, 0" HorizontalAlignment="Left"
                     />
-                    <RadioButton Content="Pocztówka"/>
-                    <RadioButton Content="List"/>
-                    <RadioButton Content="Paczka"/>
+                    <RadioButton Content="Pocztówka" x:Name="PostCardRadio"/>
+                    <RadioButton Content="List" x:Name="LetterRadio"/>
+                    <RadioButton Content="Paczka" x:Name="PackRadio"/>
                 </StackPanel>
             </Border>
             <Button Grid.Row="1" Content="Sprawdź cenę" HorizontalAlignment="Center" Margin="10"
                     Width="285"
-                    HorizontalContentAlignment="Center"
+                    HorizontalContentAlignment="Center" Click="CheckPrice"
                     />
             <StackPanel Grid.Row="2" Orientation="Horizontal">
-                <Image Source="Images/letter.png" Width="100" Margin="0, 0, 25, 0"/>
-                <TextBlock Text="Cena: 1,5 zł"/>
+                <Image x:Name="ImageFN" Source="Images/letter.png" Width="100" Margin="0, 0, 25, 0"/>
+                <TextBlock Text="Cena: 1,5 zł" x:Name="PriceTextBlock"/>
             </StackPanel>
         </Grid>
         <Border Grid.Column="1" BorderBrush="Black" BorderThickness="1" CornerRadius="10"
@@ -52,13 +54,15 @@
             <StackPanel Orientation="Vertical">
                 <TextBlock Text="Ulicz z numerem"/>
                 <TextBox/>
-                <TextBlock Text="Kod pocztowy"/>
-                <TextBox/>
+                <TextBlock Text="Kod pocztowy" />
+                <TextBox x:Name="ZipTextBox"/>
                 <TextBlock Text="Miasto"/>
                 <TextBox/>
             </StackPanel>
         </Border>
         <Button Grid.ColumnSpan="2" Grid.Row="1" Content="Zatwierdź" HorizontalAlignment="Center"
-                HorizontalContentAlignment="Center" Width="700"/>
+                HorizontalContentAlignment="Center" Width="700" Click="OnConfirm"/>
     </Grid>
+
+        
 </Window>
